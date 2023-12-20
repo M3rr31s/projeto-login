@@ -51,6 +51,9 @@ section#login{
     border-radius: 20px;
 
     overflow: hidden;
+
+    transition: width 0.5s, height 0.5s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
